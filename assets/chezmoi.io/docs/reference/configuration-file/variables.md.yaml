@@ -50,7 +50,7 @@ sections:
       description: Temporary directory for scripts
     sourceDir:
       default: >-
-        `$XDG_SHARE_HOME/chezmoi` <br/>
+        `$XDG_DATA_HOME/chezmoi` <br/>
         `$HOME/.local/share/chezmoi` <br/>
         `%USERPROFILE%/.local/share/chezmoi`
       description: Source directory
